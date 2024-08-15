@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #6e0099, #000000); /* Cores do time */
+    margin: 0;
+    padding: 0;
+   
+}
+header, footer {
+    background-color: #6e0099;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 1em;
+}
+.ALANZOKA-info {
+    display: flex;
+    align-items: center;
+}
+.ALANZOKA-info img {
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+    height: auto;
+    opacity: 1; 
+}
+
+.ALANZOKA-info img:hover{
+
+        box-shadow: 3px 3px 3px 3px;
+        transition: 1s;
+}
+h1::after {
+    content: " 👾";
+    color: #000000;
+}
+
+h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hum{
+
+    color: white;
+
+    font-family:'Courier New', Courier, monospace;
+}
+
+.divUm{
+
+    text-align: center;
+
+}
+
